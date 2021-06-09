@@ -48895,6 +48895,25 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1 &680468854 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3298491874157530422, guid: 6199b0803c6844848b073f21de8d76cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1512359799}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &680468855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680468854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e69f0fc968583b40b635f9c98b40d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0.08
 --- !u!1 &702482707
 GameObject:
   m_ObjectHideFlags: 0
@@ -50113,7 +50132,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_X (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3298491874157530409, guid: 6199b0803c6844848b073f21de8d76cf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6199b0803c6844848b073f21de8d76cf, type: 3}
 --- !u!1001 &1532076297
 PrefabInstance:
