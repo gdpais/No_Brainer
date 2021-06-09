@@ -11,12 +11,6 @@ public class ButtonAction : MonoBehaviour
         isPressed = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("boxMovable") || other.gameObject.CompareTag("player"))
@@ -32,5 +26,10 @@ public class ButtonAction : MonoBehaviour
             isPressed = false;
             GetComponent<Animator>().SetTrigger("TriggerReleved");
         }
+    }
+
+    public bool GetIsPressed()
+    {
+        return isPressed;
     }
 }

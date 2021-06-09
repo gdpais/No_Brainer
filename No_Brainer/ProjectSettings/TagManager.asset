@@ -8,6 +8,7 @@ TagManager:
   - player
   - boxMovable
   - button
+  - telekinesis
   layers:
   - Default
   - TransparentFX
