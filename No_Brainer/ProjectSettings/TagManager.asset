@@ -7,6 +7,7 @@ TagManager:
   - pickup
   - player
   - boxMovable
+  - button
   layers:
   - Default
   - TransparentFX

@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 234665987977455646}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,7 +141,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_JumpForce: 670
-  m_CrouchSpeed: 0.4
   m_MovementSmoothing: 0.05
   m_AirControl: 1
   m_WhatIsGround:
@@ -149,7 +148,6 @@ MonoBehaviour:
     m_Bits: 55
   m_GroundCheck: {fileID: 234665989937810713}
   m_CeilingCheck: {fileID: 234665988380389449}
-  m_CrouchDisableCollider: {fileID: 0}
 --- !u!114 &234665987977455638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,6 +162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 234665987977455636}
   runSpeed: 20
+  countText: {fileID: 0}
 --- !u!70 &234665987977455646
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
