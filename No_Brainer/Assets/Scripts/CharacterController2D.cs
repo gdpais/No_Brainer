@@ -70,6 +70,7 @@ public class CharacterController2D : MonoBehaviour
             m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
         }
     }
+
     public void NormalizeSlope()
     {
         // Attempt vertical normalization

@@ -34,12 +34,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //Handle slopes
         controller.NormalizeSlope();
         // Move our character
         controller.Move(horizontalMove * Time.fixedDeltaTime, jump);
         jump = false;
     }
 
+    //Increment score, updates the score message and destroy the object that was chatched 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("pickup"))
@@ -50,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    //score message
+    //Score message
     private void SetCounterText()
     {
         countText.text = score.ToString() + ' ';

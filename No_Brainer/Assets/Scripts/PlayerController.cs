@@ -85,6 +85,8 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+
+
     private void CheckGround()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
@@ -176,6 +178,7 @@ public class PlayerController : MonoBehaviour
             rb.sharedMaterial = noFriction;
         }
     }
+
 
     private void Jump()
     {

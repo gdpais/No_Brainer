@@ -20,25 +20,26 @@ public class FollowMouse : MonoBehaviour, IPointerDownHandler
 
     private void Update()
     {
-
+        //Checks if the object is on screen
         Vector2 pointOnScreen = Camera.main.WorldToScreenPoint(GetComponentInChildren<Renderer>().bounds.center);
-        // GameObject.FindGameObjectWithTag("Your_Tag_Here").transform.position;
         if ((pointOnScreen.x > 0) && (pointOnScreen.x < Screen.width) &&
                         (pointOnScreen.y > 0) && (pointOnScreen.y < Screen.height))
         {
+            //Cheks if mouse1 is pressed and if the object was pressed
             if (Input.GetMouseButton(0) && canMove)
             {
+                //Makes the object follow the cursor
                 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
                 rb.MovePosition(position);
             }
         }
-
     }
+
+    //Checks if the object was clicked 
     public void OnPointerDown(PointerEventData eventData)
     {
         //Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
         canMove = !canMove;
     }
-
 }
