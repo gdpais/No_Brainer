@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ButtonAction : MonoBehaviour
 {
-    private bool isPressed;
+    public bool isPressed;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +29,7 @@ public class ButtonAction : MonoBehaviour
         {
             isPressed = false;
             //Starts relieved animation
-            GetComponent<Animator>().SetTrigger("TriggerReleved");
+            GetComponent<Animator>().SetTrigger("TriggerRelieved");
         }
     }
 
