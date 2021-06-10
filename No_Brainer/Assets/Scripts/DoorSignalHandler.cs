@@ -28,6 +28,7 @@ public class DoorSignalHandler : MonoBehaviour
 
     }
 
+    //Checks if all needed buttons are pressed
     private bool checkPressedButton()
     {
         for (int i = 0; i < buttonsList.Length; i++)
