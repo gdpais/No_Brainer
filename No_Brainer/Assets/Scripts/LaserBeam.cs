@@ -33,6 +33,7 @@ public class LaserBeam
 
     void CastRay(Vector2 pos, Vector2 dir, LineRenderer laser, int max = 1000)
     {
+        
         if (max <= 0)
         {
             return;

@@ -5,19 +5,19 @@ using UnityEngine;
 public class ShootLaser : MonoBehaviour
 {
     public Material material;
+    public int toLeft = -1; //left =-1 right =1
     LaserBeam beam;
     void Start()
     {
-        beam = new LaserBeam(gameObject.transform.position, -gameObject.transform.right, material);
-        Debug.Log(beam);
+        beam = new LaserBeam(gameObject.transform.position, (toLeft * gameObject.transform.right), material);
     }
+
 
 
     // Update is called once per frame
     void Update()
     {
         beam.DestroyLaser();
-        //Destroy(GameObject.Find("Laser Beam"));
         beam.SetProperties(gameObject.transform.position, -gameObject.transform.right);
     }
 }
