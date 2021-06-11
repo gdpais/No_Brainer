@@ -9,6 +9,7 @@ TagManager:
   - boxMovable
   - button
   - telekinesis
+  - mirror
   layers:
   - Default
   - TransparentFX
