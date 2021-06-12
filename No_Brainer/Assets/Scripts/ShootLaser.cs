@@ -7,10 +7,10 @@ public class ShootLaser : MonoBehaviour
     public Material material;
     public int toLeft = -1; //left =-1 right =1
     LaserBeam beam;
+    public GameObject receptor;
     void Start()
     {
-        Debug.Log(toLeft);
-        beam = new LaserBeam(gameObject.transform.position, (toLeft * gameObject.transform.right), material);
+        beam = new LaserBeam(gameObject.transform.position, (toLeft * gameObject.transform.right), material, receptor);
     }
 
 
