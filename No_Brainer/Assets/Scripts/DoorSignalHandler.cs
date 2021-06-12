@@ -7,7 +7,7 @@ public class DoorSignalHandler : MonoBehaviour
     private static int NUMBER_OF_BUTTONS = 3;
     public GameObject[] buttonsList = new GameObject[NUMBER_OF_BUTTONS];
     // Start is called before the first frame update
-    private bool arePressed;
+    private bool[] arePressed = { false, false, false };
     public GameObject door;
 
     void Start()
@@ -35,23 +35,12 @@ public class DoorSignalHandler : MonoBehaviour
     //Checks if all needed buttons are pressed
     private bool checkPressedButton()
     {
-        for (int i = 0; i < buttonsList.Length; i++)
+        bool canOpen = true;
+        foreach (GameObject button in buttonsList)
         {
-            if (!buttonsList[i].GetComponent<ButtonAction>().GetIsPressed())
-            {
-                //Debug.Log("Pressed");
-                //GetComponent<Animator>().SetTrigger("redToGreen");
-                //arePressed = true;
-                return false;
-            }
-            /* if (arePressed && !buttonsList[i].GetComponent<ButtonAction>().GetIsPressed())
-             {
-                 //Debug.Log("Relieved");
-                 //GetComponent<Animator>().SetTrigger("greenToRed");
-                 arePressed = false;
-                 break;
-             }*/
+            if (!button.GetComponent<ButtonAction>().GetIsPressed())
+                canOpen = false;
         }
-        return true;
+        return canOpen;
     }
 }
