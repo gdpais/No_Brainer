@@ -10,6 +10,7 @@ TagManager:
   - button
   - telekinesis
   - mirror
+  - gameMusic
   layers:
   - Default
   - TransparentFX
