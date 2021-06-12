@@ -20,4 +20,7 @@ public class VirusController : MonoBehaviour
         else
             transform.Translate(Vector2.right * -Time.deltaTime);
     }
+
+
+
 }

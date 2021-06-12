@@ -1,76 +1,76 @@
 fileFormatVersion: 2
-guid: f8c09f544e5ebeb4e9c28f8b894fb01d
+guid: 3facfa1f8f8010c4ba38607f6204c862
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 278937805400700947
-    second: Dorr_0
+      213: -8344782737782798374
+    second: Door_inverso_0
   - first:
-      213: -7375186915068950138
-    second: Dorr_1
+      213: -6762322543891291699
+    second: Door_inverso_1
   - first:
-      213: -1530253010357322933
-    second: Dorr_2
+      213: -3964741325257256309
+    second: Door_inverso_2
   - first:
-      213: -7478452585408589512
-    second: Dorr_3
+      213: 914780291349365608
+    second: Door_inverso_3
   - first:
-      213: 3300023715840011876
-    second: Dorr_4
+      213: 492128338658435401
+    second: Door_inverso_4
   - first:
-      213: 5262150155557433353
-    second: Dorr_5
+      213: -595668582271037443
+    second: Door_inverso_5
   - first:
-      213: -7839254327268892714
-    second: Dorr_6
+      213: -3276529773481124646
+    second: Door_inverso_6
   - first:
-      213: -7085278201577510551
-    second: Dorr_7
+      213: -1378005756030825966
+    second: Door_inverso_7
   - first:
-      213: -3782485296038548116
-    second: Dorr_8
+      213: -9023206249334176781
+    second: Door_inverso_8
   - first:
-      213: 8335131097238678843
-    second: Dorr_9
+      213: 4120457509630957648
+    second: Door_inverso_9
   - first:
-      213: -2848537774327746960
-    second: Dorr_10
+      213: -7539661149170578238
+    second: Door_inverso_10
   - first:
-      213: 5840763983943065616
-    second: Dorr_11
+      213: -8597819449823209172
+    second: Door_inverso_11
   - first:
-      213: 2713784989768663318
-    second: Dorr_12
+      213: 5728510428837737102
+    second: Door_inverso_12
   - first:
-      213: 2221611314262073521
-    second: Dorr_13
+      213: 4558281245627832340
+    second: Door_inverso_13
   - first:
-      213: 5799063847933433678
-    second: Dorr_14
+      213: -2688406316600047786
+    second: Door_inverso_14
   - first:
-      213: -78747766792825990
-    second: Dorr_15
+      213: 159013087062704978
+    second: Door_inverso_15
   - first:
-      213: 5793991868779385526
-    second: Dorr_16
+      213: -5307750043913343191
+    second: Door_inverso_16
   - first:
-      213: 7966335094232707650
-    second: Dorr_17
+      213: 6879015976007770438
+    second: Door_inverso_17
   - first:
-      213: -8543616412523699276
-    second: Dorr_18
+      213: 8273176463016104903
+    second: Door_inverso_18
   - first:
-      213: -5780363912966031774
-    second: Dorr_19
+      213: 3697807280962600005
+    second: Door_inverso_19
   - first:
-      213: 4513244248419220714
-    second: Dorr_20
+      213: 6958727092900355606
+    second: Door_inverso_20
   - first:
-      213: -4047883848427273267
-    second: Dorr_21
+      213: -2012314448719289206
+    second: Door_inverso_21
   - first:
-      213: 724372319467500842
-    second: Dorr_22
+      213: -1599685081411299269
+    second: Door_inverso_22
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -156,474 +156,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dorr_0
+      name: Door_inverso_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 0
-        width: 10
-        height: 112
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 318f555c47cfed300800000000000000
-      internalID: 278937805400700947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_1
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 4
-        width: 10
-        height: 108
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 689c43f739216a990800000000000000
-      internalID: -7375186915068950138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_2
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 7
-        width: 10
-        height: 105
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4bfd25aef273cae0800000000000000
-      internalID: -1530253010357322933
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_3
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 16
-        width: 10
-        height: 96
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8319e110ff2373890800000000000000
-      internalID: -7478452585408589512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_4
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 20
-        width: 10
-        height: 92
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46e2205d51a0ccd20800000000000000
-      internalID: 3300023715840011876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_5
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 23
-        width: 10
-        height: 89
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90074c8bfa9e60940800000000000000
-      internalID: 5262150155557433353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_6
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 28
-        width: 10
-        height: 84
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6df913739bf553390800000000000000
-      internalID: -7839254327268892714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_7
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 32
-        width: 10
-        height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 969672cd3090cad90800000000000000
-      internalID: -7085278201577510551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_8
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 36
-        width: 10
-        height: 76
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6deb79e9a9e18bc0800000000000000
-      internalID: -3782485296038548116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_9
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 39
-        width: 10
-        height: 73
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3d293f42955ca370800000000000000
-      internalID: 8335131097238678843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_10
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 44
-        width: 10
-        height: 68
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07ea9e78cf5f778d0800000000000000
-      internalID: -2848537774327746960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_11
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 48
-        width: 10
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01062dfc5ef8e0150800000000000000
-      internalID: 5840763983943065616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_12
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 52
-        width: 10
-        height: 60
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 611c2f7e11d49a520800000000000000
-      internalID: 2713784989768663318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_13
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 55
-        width: 10
-        height: 57
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b0649f38bfb4de10800000000000000
-      internalID: 2221611314262073521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_14
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 60
-        width: 10
-        height: 52
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e47d1ed48d96a7050800000000000000
-      internalID: 5799063847933433678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_15
-      rect:
-        serializedVersion: 2
-        x: 246
-        y: 64
-        width: 10
-        height: 48
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a735575c25b38eef0800000000000000
-      internalID: -78747766792825990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_16
-      rect:
-        serializedVersion: 2
-        x: 262
-        y: 68
-        width: 10
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b2d81228e4686050800000000000000
-      internalID: 5793991868779385526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_17
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 71
-        width: 10
-        height: 41
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 242f77d8f8b1e8e60800000000000000
-      internalID: 7966335094232707650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_18
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 76
-        width: 10
-        height: 36
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b3e35a832afe6980800000000000000
-      internalID: -8543616412523699276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_19
-      rect:
-        serializedVersion: 2
-        x: 310
-        y: 80
-        width: 10
-        height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2663c2795a508cfa0800000000000000
-      internalID: -5780363912966031774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_20
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 84
-        width: 10
-        height: 28
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aec3a935bb342ae30800000000000000
-      internalID: 4513244248419220714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_21
-      rect:
-        serializedVersion: 2
-        x: 342
-        y: 92
-        width: 10
-        height: 20
-      alignment: 9
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc38372261703d7c0800000000000000
-      internalID: -4047883848427273267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dorr_22
-      rect:
-        serializedVersion: 2
-        x: 358
+        x: 7
         y: 96
-        width: 10
+        width: 9
         height: 16
       alignment: 9
       pivot: {x: 0.5, y: 1}
@@ -632,8 +170,470 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a257cf269cc7d0a00800000000000000
-      internalID: 724372319467500842
+      spriteID: ad705a20050613c80800000000000000
+      internalID: -8344782737782798374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 92
+        width: 9
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc16eb289776722a0800000000000000
+      internalID: -6762322543891291699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 84
+        width: 9
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82dab155c86af8c0800000000000000
+      internalID: -3964741325257256309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 80
+        width: 9
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863486904d3f1bc00800000000000000
+      internalID: 914780291349365608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 76
+        width: 9
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941a3a9dd1464d600800000000000000
+      internalID: 492128338658435401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 71
+        width: 9
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffcfd59492cbb7f0800000000000000
+      internalID: -595668582271037443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 68
+        width: 9
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc9aa3e78d6782d0800000000000000
+      internalID: -3276529773481124646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 64
+        width: 9
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ac65dd01750ece0800000000000000
+      internalID: -1378005756030825966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 60
+        width: 9
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f30a5529b127c280800000000000000
+      internalID: -9023206249334176781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_9
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 55
+        width: 9
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058d4ad164ece2930800000000000000
+      internalID: 4120457509630957648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_10
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 52
+        width: 9
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cccfd4b12ebd5790800000000000000
+      internalID: -7539661149170578238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 48
+        width: 9
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29d75a73c86ea880800000000000000
+      internalID: -8597819449823209172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 44
+        width: 9
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e827ef252e1cf7f40800000000000000
+      internalID: 5728510428837737102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_13
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 39
+        width: 9
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418d8ff54a4424f30800000000000000
+      internalID: 4558281245627832340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_14
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 36
+        width: 9
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6574327e2bcd0bad0800000000000000
+      internalID: -2688406316600047786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_15
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 32
+        width: 9
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253c2096f8de43200800000000000000
+      internalID: 159013087062704978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_16
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 28
+        width: 9
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f2bfbe4751756b0800000000000000
+      internalID: -5307750043913343191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_17
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 23
+        width: 9
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6412e26659c277f50800000000000000
+      internalID: 6879015976007770438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_18
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 20
+        width: 9
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c39232f82a30d270800000000000000
+      internalID: 8273176463016104903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_19
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 16
+        width: 9
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cf0a55120415330800000000000000
+      internalID: 3697807280962600005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_20
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 7
+        width: 9
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e563d0c6d529060800000000000000
+      internalID: 6958727092900355606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_21
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 4
+        width: 9
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8463bbaba2d214e0800000000000000
+      internalID: -2012314448719289206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_inverso_22
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 9
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38dcf9d4e6ccc9e0800000000000000
+      internalID: -1599685081411299269
       vertices: []
       indices: 
       edges: []
