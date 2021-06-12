@@ -48,7 +48,7 @@ public class LaserBeam
         }
         else
         {
-            laserIndices.Add(ray.GetPoint(60));
+            laserIndices.Add(ray.GetPoint(1000));
             UpdateLaser();
         }
     }
