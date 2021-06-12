@@ -9,6 +9,7 @@ public class ShootLaser : MonoBehaviour
     LaserBeam beam;
     void Start()
     {
+        Debug.Log(toLeft);
         beam = new LaserBeam(gameObject.transform.position, (toLeft * gameObject.transform.right), material);
     }
 
@@ -18,6 +19,6 @@ public class ShootLaser : MonoBehaviour
     void Update()
     {
         beam.DestroyLaser();
-        beam.SetProperties(gameObject.transform.position, -gameObject.transform.right);
+        beam.SetProperties(gameObject.transform.position, (toLeft * gameObject.transform.right));
     }
 }

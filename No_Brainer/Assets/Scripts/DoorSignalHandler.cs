@@ -8,6 +8,7 @@ public class DoorSignalHandler : MonoBehaviour
     public GameObject[] buttonsList = new GameObject[NUMBER_OF_BUTTONS];
     // Start is called before the first frame update
     private bool arePressed;
+    public GameObject door;
 
     void Start()
     {
@@ -20,10 +21,13 @@ public class DoorSignalHandler : MonoBehaviour
         if (checkPressedButton())
         {
             GetComponent<Animator>().SetTrigger("redToGreen");
+            door.GetComponent<Animator>().SetTrigger("Open");
+
         }
         else
         {
             GetComponent<Animator>().SetTrigger("greenToRed");
+            door.GetComponent<Animator>().SetTrigger("Close");
         }
 
     }
