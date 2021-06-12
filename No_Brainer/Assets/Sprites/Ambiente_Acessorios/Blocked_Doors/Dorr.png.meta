@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: f8c09f544e5ebeb4e9c28f8b894fb01d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 278937805400700947
+    second: Dorr_0
+  - first:
+      213: -7375186915068950138
+    second: Dorr_1
+  - first:
+      213: -1530253010357322933
+    second: Dorr_2
+  - first:
+      213: -7478452585408589512
+    second: Dorr_3
+  - first:
+      213: 3300023715840011876
+    second: Dorr_4
+  - first:
+      213: 5262150155557433353
+    second: Dorr_5
+  - first:
+      213: -7839254327268892714
+    second: Dorr_6
+  - first:
+      213: -7085278201577510551
+    second: Dorr_7
+  - first:
+      213: -3782485296038548116
+    second: Dorr_8
+  - first:
+      213: 8335131097238678843
+    second: Dorr_9
+  - first:
+      213: -2848537774327746960
+    second: Dorr_10
+  - first:
+      213: 5840763983943065616
+    second: Dorr_11
+  - first:
+      213: 2713784989768663318
+    second: Dorr_12
+  - first:
+      213: 2221611314262073521
+    second: Dorr_13
+  - first:
+      213: 5799063847933433678
+    second: Dorr_14
+  - first:
+      213: -78747766792825990
+    second: Dorr_15
+  - first:
+      213: 5793991868779385526
+    second: Dorr_16
+  - first:
+      213: 7966335094232707650
+    second: Dorr_17
+  - first:
+      213: -8543616412523699276
+    second: Dorr_18
+  - first:
+      213: -5780363912966031774
+    second: Dorr_19
+  - first:
+      213: 4513244248419220714
+    second: Dorr_20
+  - first:
+      213: -4047883848427273267
+    second: Dorr_21
+  - first:
+      213: 724372319467500842
+    second: Dorr_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dorr_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 10
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318f555c47cfed300800000000000000
+      internalID: 278937805400700947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4
+        width: 10
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689c43f739216a990800000000000000
+      internalID: -7375186915068950138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 7
+        width: 10
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bfd25aef273cae0800000000000000
+      internalID: -1530253010357322933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 16
+        width: 10
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8319e110ff2373890800000000000000
+      internalID: -7478452585408589512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 20
+        width: 10
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e2205d51a0ccd20800000000000000
+      internalID: 3300023715840011876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 23
+        width: 10
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90074c8bfa9e60940800000000000000
+      internalID: 5262150155557433353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 28
+        width: 10
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df913739bf553390800000000000000
+      internalID: -7839254327268892714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 32
+        width: 10
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969672cd3090cad90800000000000000
+      internalID: -7085278201577510551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_8
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 36
+        width: 10
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6deb79e9a9e18bc0800000000000000
+      internalID: -3782485296038548116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 39
+        width: 10
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d293f42955ca370800000000000000
+      internalID: 8335131097238678843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_10
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 44
+        width: 10
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ea9e78cf5f778d0800000000000000
+      internalID: -2848537774327746960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_11
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 48
+        width: 10
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01062dfc5ef8e0150800000000000000
+      internalID: 5840763983943065616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_12
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 52
+        width: 10
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611c2f7e11d49a520800000000000000
+      internalID: 2713784989768663318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_13
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 55
+        width: 10
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0649f38bfb4de10800000000000000
+      internalID: 2221611314262073521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_14
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 60
+        width: 10
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47d1ed48d96a7050800000000000000
+      internalID: 5799063847933433678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_15
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 64
+        width: 10
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a735575c25b38eef0800000000000000
+      internalID: -78747766792825990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_16
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 68
+        width: 10
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2d81228e4686050800000000000000
+      internalID: 5793991868779385526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_17
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 71
+        width: 10
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242f77d8f8b1e8e60800000000000000
+      internalID: 7966335094232707650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_18
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 76
+        width: 10
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3e35a832afe6980800000000000000
+      internalID: -8543616412523699276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_19
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 80
+        width: 10
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2663c2795a508cfa0800000000000000
+      internalID: -5780363912966031774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_20
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 84
+        width: 10
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec3a935bb342ae30800000000000000
+      internalID: 4513244248419220714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_21
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 92
+        width: 10
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc38372261703d7c0800000000000000
+      internalID: -4047883848427273267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorr_22
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 96
+        width: 10
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a257cf269cc7d0a00800000000000000
+      internalID: 724372319467500842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
