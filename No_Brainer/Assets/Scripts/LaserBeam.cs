@@ -8,8 +8,9 @@ public class LaserBeam
     GameObject laserObj;
     LineRenderer laser;
     List<Vector2> laserIndices = new List<Vector2>();
+    GameObject receptor;
 
-    public LaserBeam(Vector2 pos, Vector2 dir, Material material)
+    public LaserBeam(Vector2 pos, Vector2 dir, Material material, GameObject receptor)
     {
         this.laser = new LineRenderer();
         this.laserObj = new GameObject();
@@ -24,6 +25,7 @@ public class LaserBeam
         this.laser.startColor = Color.blue;
         this.laser.endColor = Color.blue;
 
+        this.receptor = receptor;
     }
 
     public void SetProperties(Vector2 pos, Vector2 dir)
@@ -33,7 +35,7 @@ public class LaserBeam
 
     void CastRay(Vector2 pos, Vector2 dir, LineRenderer laser, int max = 1000)
     {
-        
+
         if (max <= 0)
         {
             return;
@@ -83,6 +85,15 @@ public class LaserBeam
 
             laserIndices.Add(hitInfo.point);
             UpdateLaser();
+        }
+
+        if (hitInfo.collider.gameObject.tag == "receptor")
+        {
+            receptor.GetComponent<Animator>().SetBool("isOn", true);
+        }
+        else
+        {
+            receptor.GetComponent<Animator>().SetBool("isOn", false);
         }
     }
 }
