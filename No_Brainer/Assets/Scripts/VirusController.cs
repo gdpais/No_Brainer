@@ -23,7 +23,7 @@ public class VirusController : MonoBehaviour
             transform.Translate(direction * Vector2.right * Time.deltaTime);
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnParticleCollision(GameObject other)
     {
         direction *= -1;
     }
