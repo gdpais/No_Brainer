@@ -11,7 +11,7 @@ public class MusicPlayer : MonoBehaviour
 
     void Start()
     {
-        audioSource.Play();
+        //audioSource.Play();
         musicVolume = PlayerPrefs.GetFloat("volume");
         audioSource.volume = musicVolume;
         volumeSlider.value = musicVolume;
@@ -19,8 +19,11 @@ public class MusicPlayer : MonoBehaviour
 
     void Update()
     {
-        audioSource.volume = musicVolume;
-        PlayerPrefs.SetFloat("volume", musicVolume);
+        if (audioSource != null)
+        {
+            audioSource.volume = musicVolume;
+            PlayerPrefs.SetFloat("volume", musicVolume);
+        }
     }
 
     public void updateVolume(float volume)
