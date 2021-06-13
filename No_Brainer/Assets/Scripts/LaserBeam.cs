@@ -51,7 +51,7 @@ public class LaserBeam
         else
         {
             laserIndices.Add(ray.GetPoint(1000000));
-            UpdateLaser(hit);
+            UpdateLaser();
         }
     }
 
@@ -60,7 +60,7 @@ public class LaserBeam
         laserIndices.Clear();
     }
 
-    void UpdateLaser(RaycastHit2D hitInfo)
+    void UpdateLaser()
     {
 
         int count = 0;
@@ -96,7 +96,7 @@ public class LaserBeam
             }
             //Debug.Log(hitInfo.collider.name);
             laserIndices.Add(hitInfo.point);
-            UpdateLaser(hitInfo);
+            UpdateLaser();
         }
 
 
