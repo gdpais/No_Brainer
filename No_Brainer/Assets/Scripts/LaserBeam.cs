@@ -43,14 +43,14 @@ public class LaserBeam
 
         laserIndices.Add(pos);
         Ray2D ray = new Ray2D(pos, dir);
-        RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, 30, 1);
+        RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, 100000, 1);
         if (hit)
         {
             CheckHit(hit, dir, laser, max);
         }
         else
         {
-            laserIndices.Add(ray.GetPoint(1000));
+            laserIndices.Add(ray.GetPoint(1000000));
             UpdateLaser();
         }
     }
@@ -70,10 +70,13 @@ public class LaserBeam
             laser.SetPosition(count, idx);
             count++;
         }
+
     }
 
     void CheckHit(RaycastHit2D hitInfo, Vector2 direction, LineRenderer laser, int max)
     {
+
+
         if (hitInfo.collider.gameObject.tag == "mirror")
         {
             Vector2 pos = hitInfo.point;
@@ -82,18 +85,20 @@ public class LaserBeam
         }
         else
         {
-
+            if (hitInfo.collider.gameObject.tag == "receptor")
+            {
+                //Debug.Log(hitInfo.collider.name);
+                receptor.GetComponent<Animator>().SetBool("isOn", true);
+            }
+            else
+            {
+                receptor.GetComponent<Animator>().SetBool("isOn", false);
+            }
+            //Debug.Log(hitInfo.collider.name);
             laserIndices.Add(hitInfo.point);
             UpdateLaser();
         }
 
-        if (hitInfo.collider.gameObject.tag == "receptor")
-        {
-            receptor.GetComponent<Animator>().SetBool("isOn", true);
-        }
-        else
-        {
-            receptor.GetComponent<Animator>().SetBool("isOn", false);
-        }
+
     }
 }

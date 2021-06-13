@@ -11,6 +11,8 @@ TagManager:
   - telekinesis
   - mirror
   - gameMusic
+  - receptor
+  - badguy
   layers:
   - Default
   - TransparentFX

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class VirusController : MonoBehaviour
 {
-
+    public float minLimit = 21.0f;
+    public float maxLimit = 31.0f;
     private int direction = 1;
     // Start is called before the first frame update
     void Start()
@@ -15,17 +16,8 @@ public class VirusController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float timer = 0;
-        timer += Time.deltaTime;
-        if ((timer % 5) == 0)
-            transform.Translate(direction * Vector2.right * Time.deltaTime);
-        else
-            transform.Translate(direction * Vector2.right * Time.deltaTime);
+        transform.Translate(direction * Vector2.right * Time.deltaTime);
+        if (transform.position.x <= minLimit || transform.position.x >= maxLimit)
+            direction *= -1;
     }
-
-    private void OnParticleCollision(GameObject other)
-    {
-        direction *= -1;
-    }
-
 }

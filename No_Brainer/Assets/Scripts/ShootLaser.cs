@@ -16,7 +16,7 @@ public class ShootLaser : MonoBehaviour
 
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         beam.DestroyLaser();
         beam.SetProperties(gameObject.transform.position, (toLeft * gameObject.transform.right));
