@@ -534,7 +534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a896d7a59e3b9c64ab8c6f33a6c0ae22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volumeSlider: {fileID: 0}
+  volumeSlider: {fileID: 1701543105}
   audioSource: {fileID: 2028992820}
 --- !u!4 &593838471
 Transform:
