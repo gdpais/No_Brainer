@@ -52,6 +52,24 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("badguy"))
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipY = true;
+            CapsuleCollider2D coll = gameObject.GetComponent<CapsuleCollider2D>();
+            coll.enabled = false;
+            StartCoroutine(Example());
+        }
+    }
+
+    IEnumerator Example()
+    {
+        // Move the first cube up or down.
+        yield return new WaitForSeconds(0.35f);
+        Time.timeScale = 0f;
+    }
+
     //Score message
     private void SetCounterText()
     {
