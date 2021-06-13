@@ -10,6 +10,8 @@ TagManager:
   - button
   - telekinesis
   - mirror
+  - receptor
+  - badguy
   layers:
   - Default
   - TransparentFX
