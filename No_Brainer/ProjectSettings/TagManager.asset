@@ -13,6 +13,8 @@ TagManager:
   - gameMusic
   - receptor
   - badguy
+  - enHead
+  - Tilemap
   layers:
   - Default
   - TransparentFX
