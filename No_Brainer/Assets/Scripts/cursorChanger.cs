@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class cursorChanger : MonoBehaviour
 {
-    private Vector2 hotSpot = Vector2.zero;
+    private Vector2 hotSpot;
     public Texture2D cursorTexture;
     // Start is called before the first frame update
     void Start()
     {
+        hotSpot = new Vector2(cursorTexture.width / 2, cursorTexture.height / 2);
         //Cursor.visible = false;
         Cursor.SetCursor(cursorTexture, hotSpot, CursorMode.ForceSoftware);
     }
