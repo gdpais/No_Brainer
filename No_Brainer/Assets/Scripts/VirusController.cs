@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class VirusController : MonoBehaviour
 {
+
+    private int direction = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,12 +17,15 @@ public class VirusController : MonoBehaviour
     {
         float timer = 0;
         timer += Time.deltaTime;
-        if (timer % 5 == 0)
-            transform.Translate(Vector2.right * Time.deltaTime);
+        if ((timer % 5) == 0)
+            transform.Translate(direction * Vector2.right * Time.deltaTime);
         else
-            transform.Translate(Vector2.right * -Time.deltaTime);
+            transform.Translate(direction * Vector2.right * Time.deltaTime);
     }
 
-
+    private void OnParticleCollision(GameObject other)
+    {
+        direction *= -1;
+    }
 
 }
