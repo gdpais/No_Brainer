@@ -257,7 +257,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 9e1c54280fea4354d8d4e732407403a2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -113178,7 +113178,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -2654361782959514231, guid: 5cc81e2bbcd13364da960ef1e9d814af,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -113554,7 +113554,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -2654361782959514231, guid: 5cc81e2bbcd13364da960ef1e9d814af,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -114548,6 +114548,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1130739358001201906, guid: 2158ebb9785b6064e8a474049ca738eb,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 1130739358001201907, guid: 2158ebb9785b6064e8a474049ca738eb,
         type: 3}
       propertyPath: m_RootOrder
@@ -115069,6 +115074,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532999313644267739, guid: 3d28cb61b8dff8d469a521eea45f4096,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7532999313644267741, guid: 3d28cb61b8dff8d469a521eea45f4096,
         type: 3}
@@ -115693,7 +115703,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 9e1c54280fea4354d8d4e732407403a2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
