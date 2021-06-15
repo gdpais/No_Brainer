@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public Text countText;
     float horizontalMove = 0f;
     bool jump = false;
+    public GameObject tryAgain;
 
     private void Start()
     {
@@ -68,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
         // Move the first cube up or down.
         yield return new WaitForSeconds(0.35f);
         Time.timeScale = 0f;
+        tryAgain.SetActive(true);
     }
 
     //Score message
