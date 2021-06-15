@@ -9,7 +9,16 @@ public class EndOfLevel : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            StartCoroutine(endLevel());
         }
+
+    }
+
+
+    IEnumerator endLevel()
+    {
+        // Move the first cube up or down.
+        yield return new WaitForSeconds(0.1f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
