@@ -28,7 +28,7 @@ public class FollowMouse : MonoBehaviour, IPointerDownHandler
                         (pointOnScreen.y > 0) && (pointOnScreen.y < Screen.height) && canMove)
         {
             obj.SetActive(true);
-            //Cheks if mouse1 is pressed and if the object was pressed
+            //Checks if mouse1 is pressed and if the object was pressed
             if (Input.GetMouseButton(0))
             {
                 //Makes the object follow the cursor
