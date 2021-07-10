@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     bool jump = false;
     public GameObject tryAgain;
+    public AudioClip pickupSound;
+    public AudioClip deathSound;
 
     private void Start()
     {
@@ -47,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("pickup"))
         {
+            AudioSource.PlayClipAtPoint(pickupSound, transform.position);
             score += 1;
             SetCounterText();
             Destroy(other.gameObject);
@@ -57,6 +60,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("badguy"))
         {
+            AudioSource.PlayClipAtPoint(deathSound, transform.position);
             gameObject.GetComponent<SpriteRenderer>().flipY = true;
             CapsuleCollider2D coll = gameObject.GetComponent<CapsuleCollider2D>();
             coll.enabled = false;
