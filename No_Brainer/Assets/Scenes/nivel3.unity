@@ -23853,7 +23853,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 22
-      m_TileSpriteIndex: 22
+      m_TileSpriteIndex: 26
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -23883,7 +23883,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 20
-      m_TileSpriteIndex: 20
+      m_TileSpriteIndex: 22
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -40885,14 +40885,13 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: 3074723767286076882, guid: d3cfc83cb81fa4044955288372ae3d50,
       type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -8352541788838413898, guid: d3cfc83cb81fa4044955288372ae3d50,
-      type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: 4893970685715020116, guid: d3cfc83cb81fa4044955288372ae3d50,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -6428181555364345822, guid: d3cfc83cb81fa4044955288372ae3d50,
+    m_Data: {fileID: -8352541788838413898, guid: d3cfc83cb81fa4044955288372ae3d50,
       type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -4023683442058182482, guid: d3cfc83cb81fa4044955288372ae3d50,
@@ -40903,8 +40902,9 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: 5851291493136848978, guid: d3cfc83cb81fa4044955288372ae3d50,
       type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -6428181555364345822, guid: d3cfc83cb81fa4044955288372ae3d50,
+      type: 3}
   m_TileMatrixArray:
   - m_RefCount: 4056
     m_Data:
@@ -41332,7 +41332,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8
   m_Depth: -15
   m_CullingMask:
     serializedVersion: 2
@@ -41360,7 +41360,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1692643847
 PrefabInstance:
