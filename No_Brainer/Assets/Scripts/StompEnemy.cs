@@ -17,6 +17,7 @@ public class StompEnemy : MonoBehaviour
         }
     }
 
+    //When the gameObject is stomped and exits the screen, its destroyed
     private void OnBecameInvisible()
     {
         if (stomped)

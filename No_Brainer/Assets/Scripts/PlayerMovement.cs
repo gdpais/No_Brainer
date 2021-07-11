@@ -64,11 +64,11 @@ public class PlayerMovement : MonoBehaviour
             gameObject.GetComponent<SpriteRenderer>().flipY = true;
             CapsuleCollider2D coll = gameObject.GetComponent<CapsuleCollider2D>();
             coll.enabled = false;
-            StartCoroutine(Example());
+            StartCoroutine(TimeStop());
         }
     }
 
-    IEnumerator Example()
+    IEnumerator TimeStop()
     {
         // Move the first cube up or down.
         yield return new WaitForSeconds(0.35f);
