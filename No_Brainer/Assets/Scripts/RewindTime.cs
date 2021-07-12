@@ -7,7 +7,7 @@ public class RewindTime : MonoBehaviour
     private Rigidbody2D rb;
     private List<PointsInTime> recordedPoints;
     private bool isRewinding = false;
-    private bool canRewind = true;
+    //private bool canRewind = true;
 
     //Echo Effect
     public GameObject echo;
@@ -40,6 +40,7 @@ public class RewindTime : MonoBehaviour
         }
     }
 
+    //Rewinds time
     private void Rewind()
     {
         if (recordedPoints.Count > 0)
@@ -53,12 +54,14 @@ public class RewindTime : MonoBehaviour
         else { StopRewind(); }
     }
 
+    //Saves the gameObject position
     private void RecordPos()
     {
-        if (recordedPoints.Count > Mathf.Round(6.0f / Time.fixedDeltaTime))
+        if (recordedPoints.Count > Mathf.Round(3.0f / Time.fixedDeltaTime))
             recordedPoints.RemoveAt(recordedPoints.Count - 1);
         recordedPoints.Insert(0, new PointsInTime(transform.position, transform.rotation));
     }
+
 
     private void StartRewind()
     {
@@ -69,6 +72,7 @@ public class RewindTime : MonoBehaviour
         isRewinding = false;
     }
 
+    //Handles gameObject echo effect 
     public void Fade()
     {
         if (rb.velocity.magnitude != 0)

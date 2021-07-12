@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+
+//Used for Telekinesis power
 public class FollowMouse : MonoBehaviour, IPointerDownHandler
 {
     private Vector3 mousePosition;
@@ -35,6 +37,15 @@ public class FollowMouse : MonoBehaviour, IPointerDownHandler
                 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
                 rb.MovePosition(position);
+            }
+
+            //Increase game object size
+            Vector3 temp = transform.localScale;
+            temp.x += Input.mouseScrollDelta.y;
+            temp.y += Input.mouseScrollDelta.y;
+            if (temp.x > 0.3f && temp.y > 0.3f && temp.x < 3.0f & temp.y < 3.0f)
+            {
+                transform.localScale = temp;
             }
         }
         else
