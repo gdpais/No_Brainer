@@ -8,6 +8,12 @@ public class RewindTime : MonoBehaviour
     private List<PointsInTime> recordedPoints;
     private bool isRewinding = false;
     private bool canRewind = true;
+
+    //Echo Effect
+    public GameObject echo;
+    private float timeBtwSpawns;
+    private float startTimeBtwSpawns = 0.05f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +24,7 @@ public class RewindTime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.R)) StartRewind();
         if (Input.GetKeyUp(KeyCode.R)) StopRewind();
     }
@@ -37,6 +44,7 @@ public class RewindTime : MonoBehaviour
     {
         if (recordedPoints.Count > 0)
         {
+            Fade();
             PointsInTime somePoint = recordedPoints[0];
             transform.position = somePoint.GetPos();
             transform.rotation = somePoint.GetRotation();
@@ -59,5 +67,23 @@ public class RewindTime : MonoBehaviour
     private void StopRewind()
     {
         isRewinding = false;
+    }
+
+    public void Fade()
+    {
+        if (rb.velocity.magnitude != 0)
+        {
+            if (timeBtwSpawns <= 0)
+            {
+                GameObject instance = (GameObject)Instantiate(echo, transform.position, Quaternion.identity);
+                Destroy(instance, 8f);
+                timeBtwSpawns = startTimeBtwSpawns;
+            }
+            else
+            {
+                timeBtwSpawns -= Time.deltaTime;
+            }
+        }
+
     }
 }
