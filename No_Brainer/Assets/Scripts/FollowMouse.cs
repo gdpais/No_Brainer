@@ -13,6 +13,7 @@ public class FollowMouse : MonoBehaviour, IPointerDownHandler
     private Vector2 position = new Vector2(-0.98f, 8.3f);
     private bool canMove;
     public GameObject obj;
+    public GameObject echo;
 
 
     private void Start()
@@ -46,6 +47,7 @@ public class FollowMouse : MonoBehaviour, IPointerDownHandler
             if (temp.x > 0.3f && temp.y > 0.3f && temp.x < 3.0f & temp.y < 3.0f)
             {
                 transform.localScale = temp;
+                echo.transform.localScale = temp;
             }
         }
         else
