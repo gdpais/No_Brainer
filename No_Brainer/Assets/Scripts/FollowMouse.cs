@@ -44,8 +44,16 @@ public class FollowMouse : MonoBehaviour, IPointerDownHandler
             Vector3 temp = transform.localScale;
             temp.x += Input.mouseScrollDelta.y;
             temp.y += Input.mouseScrollDelta.y;
-            if (temp.x > 0.3f && temp.y > 0.3f && temp.x < 3.0f & temp.y < 3.0f)
+            if (temp.x > 0.3f && temp.y > 0.3f && temp.x < 3.0f && temp.y < 3.0f)
             {
+                transform.localScale = temp;
+                echo.transform.localScale = temp;
+            }
+
+            if (temp.x < 0.3f && temp.y < 0.3f)
+            {
+                temp.x = 0.3f;
+                temp.y = 0.3f;
                 transform.localScale = temp;
                 echo.transform.localScale = temp;
             }

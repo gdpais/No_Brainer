@@ -49,6 +49,7 @@ public class RewindTime : MonoBehaviour
             PointsInTime somePoint = recordedPoints[0];
             transform.position = somePoint.GetPos();
             transform.rotation = somePoint.GetRotation();
+            transform.localScale = somePoint.GetLocalState();
             recordedPoints.RemoveAt(0);
         }
         else { StopRewind(); }
@@ -59,7 +60,7 @@ public class RewindTime : MonoBehaviour
     {
         if (recordedPoints.Count > Mathf.Round(3.0f / Time.fixedDeltaTime))
             recordedPoints.RemoveAt(recordedPoints.Count - 1);
-        recordedPoints.Insert(0, new PointsInTime(transform.position, transform.rotation));
+        recordedPoints.Insert(0, new PointsInTime(transform.position, transform.rotation, transform.localScale));
     }
 
 
