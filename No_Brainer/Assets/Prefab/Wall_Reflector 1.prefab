@@ -115,6 +115,7 @@ GameObject:
   - component: {fileID: 3713786736482799258}
   - component: {fileID: 5998496679713778127}
   - component: {fileID: 2939106577543444596}
+  - component: {fileID: -8329923900268202817}
   m_Layer: 0
   m_Name: Wall_Reflector 1
   m_TagString: mirror
@@ -250,3 +251,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 0.08
   obj: {fileID: 4436853574587610465}
+--- !u!114 &-8329923900268202817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8397179317950975375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e09b87e6818c3841874749efe019b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 574425246333638671}
   - component: {fileID: 574425246333638665}
   - component: {fileID: 5032403993236541787}
+  - component: {fileID: -5946015243390687921}
   m_Layer: 0
   m_Name: Virus
   m_TagString: badguy
@@ -157,6 +158,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.03779781}
   m_Size: {x: 0.7238083, y: 0.8598807}
   m_Direction: 0
+--- !u!114 &-5946015243390687921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574425246333638675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e09b87e6818c3841874749efe019b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7146200441545746291
 GameObject:
   m_ObjectHideFlags: 0

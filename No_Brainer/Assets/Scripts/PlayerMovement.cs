@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public CharacterController2D controller;
-
     public float runSpeed = 40f;
     private int score;
     public Text countText;
@@ -16,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject tryAgain;
     public AudioClip pickupSound;
     public AudioClip deathSound;
+
 
     private void Start()
     {
@@ -26,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
         if (Input.GetButtonDown("Jump"))
@@ -34,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
             jump = true;
         }
     }
+
 
     private void FixedUpdate()
     {
@@ -56,6 +56,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    //Checks collisions with enemies 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("badguy"))
@@ -68,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    //Stops time after dieing 
     IEnumerator TimeStop()
     {
         // Move the first cube up or down.
