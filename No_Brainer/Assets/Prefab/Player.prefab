@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 5582600524258618472}
   - component: {fileID: 5582600524258618479}
   - component: {fileID: 5582600524258618466}
+  - component: {fileID: -4388023611440503405}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -238,6 +239,9 @@ MonoBehaviour:
   controller: {fileID: 5582600524258618473}
   runSpeed: 25
   countText: {fileID: 0}
+  tryAgain: {fileID: 0}
+  pickupSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &5582600524258618466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -251,6 +255,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 5582600524658040029}
+--- !u!114 &-4388023611440503405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5582600523762900651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e09b87e6818c3841874749efe019b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5582600524078054310
 GameObject:
   m_ObjectHideFlags: 0

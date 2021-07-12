@@ -50,12 +50,17 @@ public class DoorSignalHandler : MonoBehaviour
         door.GetComponent<Animator>().SetBool("Close", true);
     }
 
+    /**
+    * Opens doors for the first time every game
+    * Waits for the camera movement
+    */
     IEnumerator OpenFirst()
     {
         // Move the first cube up or down.
         yield return new WaitForSeconds(1.6f);
         OpenDoor();
         firstTime = false;
+
     }
 
 
