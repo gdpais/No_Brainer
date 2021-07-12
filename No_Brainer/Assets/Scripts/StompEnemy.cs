@@ -4,6 +4,7 @@ public class StompEnemy : MonoBehaviour
 {
     public float force = 10.0f;
     bool stomped = false;
+    public AudioClip deathSound;
     // Start is called before the first frame updates
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -14,6 +15,7 @@ public class StompEnemy : MonoBehaviour
             stomped = true;
             CapsuleCollider2D coll = transform.parent.gameObject.GetComponent<CapsuleCollider2D>();
             coll.enabled = false;
+            AudioSource.PlayClipAtPoint(deathSound, transform.position);
         }
     }
 

@@ -569,6 +569,11 @@ PrefabInstance:
       propertyPath: maxLimit
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 7146200441545746294, guid: 6bb4979806c254d4cacf20503e042e88,
+        type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d7ad1f2c88509104bbe7f0334a04929a, type: 3}
     - target: {fileID: 7265612176250962406, guid: 6bb4979806c254d4cacf20503e042e88,
         type: 3}
       propertyPath: m_Name
@@ -114135,6 +114140,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7146200441545746294, guid: 6bb4979806c254d4cacf20503e042e88,
+        type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d7ad1f2c88509104bbe7f0334a04929a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bb4979806c254d4cacf20503e042e88, type: 3}
 --- !u!1001 &975256805
