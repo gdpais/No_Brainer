@@ -16,7 +16,7 @@ public class AnimationsHandler : MonoBehaviour
     void Update()
     {
         //Makes the telekinesis animation visible if mouse1 is pressed 
-        //Or invisible if it isnt pressed
+        //Or invisible if it is not pressed
         if (Input.GetMouseButton(0))
         {
             obj.SetActive(true);
