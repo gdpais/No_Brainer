@@ -11,7 +11,6 @@ public class MusicPlayer : MonoBehaviour
 
     void Start()
     {
-        //audioSource.Play();
         musicVolume = PlayerPrefs.GetFloat("volume");
         audioSource.volume = musicVolume;
         volumeSlider.value = musicVolume;
