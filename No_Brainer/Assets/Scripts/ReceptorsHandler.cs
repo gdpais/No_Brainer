@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Cinemachine;
+
 
 public class ReceptorsHandler : MonoBehaviour
 {
@@ -6,9 +10,14 @@ public class ReceptorsHandler : MonoBehaviour
     public GameObject[] receptorsList = new GameObject[NUMBER_OF_RECEPTORS];
     public GameObject door;
     private bool canOpen;
+    private bool firstTime;
+    [SerializeField] private CinemachineVirtualCamera vCam1; //Main Camera
+    [SerializeField] private CinemachineVirtualCamera vCam2; //door camera 
+
     void Start()
     {
         canOpen = false;
+        firstTime = true;
     }
     // Update is called once per frame
     void Update()
@@ -16,8 +25,17 @@ public class ReceptorsHandler : MonoBehaviour
         CanOpen();
         if (canOpen)
         {
-            GetComponent<Animator>().SetBool("redToGreen", true);
-            door.GetComponent<Animator>().SetBool("Close", true);
+            if (firstTime)
+            {
+                vCam1.Priority = 0;
+                vCam2.Priority = 1;
+                StartCoroutine(OpenFirst());
+                StartCoroutine(WaitForAnim());
+            }
+            else
+            {
+                OpenDoor();
+            }
         }
         else
         {
@@ -26,6 +44,31 @@ public class ReceptorsHandler : MonoBehaviour
         }
     }
 
+    /**
+    * Opens doors for the first time every game
+    * Waits for the camera movement
+    */
+    IEnumerator OpenFirst()
+    {
+        // Move the first cube up or down.
+        yield return new WaitForSeconds(2.1f);
+        OpenDoor();
+        firstTime = false;
+    }
+
+    IEnumerator WaitForAnim()
+    {
+        // Move the first cube up or down.
+        yield return new WaitForSeconds(4.0f);
+        vCam1.Priority = 1;
+        vCam2.Priority = 0;
+    }
+
+    public void OpenDoor()
+    {
+        GetComponent<Animator>().SetBool("redToGreen", true);
+        door.GetComponent<Animator>().SetBool("Close", true);
+    }
     private void CanOpen()
     {
         canOpen = true;
