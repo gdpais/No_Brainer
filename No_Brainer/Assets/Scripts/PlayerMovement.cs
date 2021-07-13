@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public AudioClip deathSound;
 
 
+
     private void Start()
     {
         score = 0;
