@@ -80,7 +80,7 @@ public class RewindTime : MonoBehaviour
         {
             if (timeBtwSpawns <= 0)
             {
-                GameObject instance = (GameObject)Instantiate(echo, transform.position, Quaternion.identity);
+                GameObject instance = (GameObject)Instantiate(echo, transform.position, transform.rotation);
                 Destroy(instance, 8f);
                 timeBtwSpawns = startTimeBtwSpawns;
             }

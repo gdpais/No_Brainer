@@ -55,6 +55,7 @@ public class FollowMouse : MonoBehaviour, IPointerDownHandler
                 temp.x = 0.3f;
                 temp.y = 0.3f;
                 transform.localScale = temp;
+                echo.transform.rotation = transform.rotation;
                 echo.transform.localScale = temp;
             }
         }
