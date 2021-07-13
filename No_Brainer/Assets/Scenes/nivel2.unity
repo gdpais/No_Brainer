@@ -3878,6 +3878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 372182218}
   - component: {fileID: 372182217}
+  - component: {fileID: 372182219}
   m_Layer: 0
   m_Name: Broken_Wall (6)
   m_TagString: Untagged
@@ -3949,6 +3950,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 200
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &372182219
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372182216}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &376009375
 GameObject:
   m_ObjectHideFlags: 0
@@ -84056,6 +84070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 949525839}
   - component: {fileID: 949525838}
+  - component: {fileID: 949525840}
   m_Layer: 0
   m_Name: Broken_Wall (7)
   m_TagString: Untagged
@@ -84127,6 +84142,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 197
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &949525840
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949525837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &953580012
 GameObject:
   m_ObjectHideFlags: 0
@@ -86816,6 +86844,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1229390388}
   - component: {fileID: 1229390387}
+  - component: {fileID: 1229390389}
   m_Layer: 0
   m_Name: Broken_Wall (9)
   m_TagString: Untagged
@@ -86887,6 +86916,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 199
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1229390389
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229390386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1243484355
 GameObject:
   m_ObjectHideFlags: 0
@@ -87963,6 +88005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1321658375}
   - component: {fileID: 1321658374}
+  - component: {fileID: 1321658376}
   m_Layer: 0
   m_Name: Broken_Wall (10)
   m_TagString: Untagged
@@ -88034,6 +88077,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 201
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1321658376
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321658373}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1327872041
 GameObject:
   m_ObjectHideFlags: 0
@@ -90787,6 +90843,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1625751021}
   - component: {fileID: 1625751020}
+  - component: {fileID: 1625751022}
   m_Layer: 0
   m_Name: Broken_Wall (8)
   m_TagString: Untagged
@@ -90858,6 +90915,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 198
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1625751022
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625751019}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1633844286
 GameObject:
   m_ObjectHideFlags: 0
