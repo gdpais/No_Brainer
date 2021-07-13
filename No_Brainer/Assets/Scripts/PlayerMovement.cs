@@ -71,6 +71,8 @@ public class PlayerMovement : MonoBehaviour
             CapsuleCollider2D coll = gameObject.GetComponent<CapsuleCollider2D>();
             coll.enabled = false;
             StartCoroutine(TimeStop());
+            GameObject musicObj = GameObject.FindGameObjectWithTag("gameMusic");
+            musicObj.GetComponent<AudioSource>().enabled = false;
         }
     }
 

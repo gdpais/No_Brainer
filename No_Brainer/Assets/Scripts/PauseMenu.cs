@@ -30,6 +30,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         gameIsPaused = false;
         AudioListener.pause = false;
+        GameObject musicObj = GameObject.FindGameObjectWithTag("gameMusic");
+        musicObj.GetComponent<AudioSource>().enabled = true;
     }
 
     public void pause()
@@ -38,20 +40,23 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         gameIsPaused = true;
         AudioListener.pause = true;
+        GameObject musicObj = GameObject.FindGameObjectWithTag("gameMusic");
+        musicObj.GetComponent<AudioSource>().enabled = false;
     }
 
     public void restart()
     {
         resume();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-
+        GameObject musicObj = GameObject.FindGameObjectWithTag("gameMusic");
+        musicObj.GetComponent<AudioSource>().enabled = true;
     }
 
     public void exitGame()
     {
         resume();
         SceneManager.LoadScene("menu");
-        //AudioSource audio = GetComponent<AudioSource>();
-        //Destroy(audio);
+        GameObject musicObj = GameObject.FindGameObjectWithTag("gameMusic");
+        musicObj.GetComponent<AudioSource>().enabled = true;
     }
 }
