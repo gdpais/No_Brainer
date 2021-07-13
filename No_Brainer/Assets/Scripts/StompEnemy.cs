@@ -7,6 +7,7 @@ public class StompEnemy : MonoBehaviour
     // Start is called before the first frame updates
     private void OnTriggerEnter2D(Collider2D other)
     {
+        //CapsuleCollider2D coll = transform.parent.gameObject.GetComponent<CapsuleCollider2D>();
         if (other.gameObject.CompareTag("Player"))
         {
             Rigidbody2D palyerRb = other.GetComponent<Rigidbody2D>();
@@ -15,6 +16,12 @@ public class StompEnemy : MonoBehaviour
             CapsuleCollider2D coll = transform.parent.gameObject.GetComponent<CapsuleCollider2D>();
             coll.enabled = false;
         }
+
+        /*if (other.gameObject.CompareTag("boxMovable"))
+        {
+            stomped = true;
+            coll.enabled = false;
+        }*/
     }
 
     //When the gameObject is stomped and exits the screen, its destroyed

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+* Telekinesis Animation
+*/
 public class AnimationsHandler : MonoBehaviour
 {
     // Start is called before the first frame update

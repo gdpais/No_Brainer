@@ -7,12 +7,12 @@ public class DoorSignalHandler : MonoBehaviour
 {
     private static int NUMBER_OF_BUTTONS = 3;
     public GameObject[] buttonsList = new GameObject[NUMBER_OF_BUTTONS];
-    // Start is called before the first frame update
     public GameObject door;
     private bool firstTime;
     [SerializeField] private CinemachineVirtualCamera vCam1; //Main Camera
     [SerializeField] private CinemachineVirtualCamera vCam2; //door camera 
 
+    // Start is called before the first frame update
     void Start()
     {
         firstTime = true;
