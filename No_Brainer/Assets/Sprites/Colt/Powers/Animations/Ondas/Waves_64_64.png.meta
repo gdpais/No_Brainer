@@ -1,7 +1,52 @@
 fileFormatVersion: 2
 guid: 2873c0ee79a7430439238b5bf6926b53
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3718636846095422803
+    second: Waves_64_64_0
+  - first:
+      213: 4825946393604457532
+    second: Waves_64_64_1
+  - first:
+      213: 4652329578177786674
+    second: Waves_64_64_2
+  - first:
+      213: 5163057941215670473
+    second: Waves_64_64_3
+  - first:
+      213: -8700825665769772223
+    second: Waves_64_64_4
+  - first:
+      213: -3627971608010128792
+    second: Waves_64_64_5
+  - first:
+      213: -7878814977607723387
+    second: Waves_64_64_6
+  - first:
+      213: -9196337354196926172
+    second: Waves_64_64_7
+  - first:
+      213: 7761026105471816732
+    second: Waves_64_64_8
+  - first:
+      213: 3068528539217740121
+    second: Waves_64_64_9
+  - first:
+      213: -563369194787165744
+    second: Waves_64_64_10
+  - first:
+      213: -6692686205075589309
+    second: Waves_64_64_11
+  - first:
+      213: 3690286131566683938
+    second: Waves_64_64_12
+  - first:
+      213: 946200428650171602
+    second: Waves_64_64_13
+  - first:
+      213: 7993081324203867079
+    second: Waves_64_64_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -45,7 +90,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -85,7 +130,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Waves_64_64_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 30
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355523462804b9330800000000000000
+      internalID: 3718636846095422803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Waves_64_64_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 23
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c340fdf0da439f240800000000000000
+      internalID: 4825946393604457532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Waves_64_64_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 17
+        width: 32
+        height: 30
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233745d2a15609040800000000000000
+      internalID: 4652329578177786674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Waves_64_64_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 11
+        width: 47
+        height: 42
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c07beca7ddd6a740800000000000000
+      internalID: 5163057941215670473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Waves_64_64_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8628a595b0bd6adc0800000000000000
+      internalID: -3627971608010128792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Waves_64_64_6
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5861aa88583d8a290800000000000000
+      internalID: -7878814977607723387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
