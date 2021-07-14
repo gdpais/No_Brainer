@@ -8,11 +8,13 @@ using UnityEngine;
 public class AnimationsHandler : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject obj;
+    public GameObject telekinesis;
+    public GameObject waves;
     void Start()
     {
         //makes the telekinesis invisible
-        obj.SetActive(false);
+        telekinesis.SetActive(false);
+        waves.SetActive(false);
     }
 
     // Update is called once per frame
@@ -22,11 +24,21 @@ public class AnimationsHandler : MonoBehaviour
         //Or invisible if it is not pressed
         if (Input.GetMouseButton(0))
         {
-            obj.SetActive(true);
+            telekinesis.SetActive(true);
         }
         else
         {
-            obj.SetActive(false);
+            telekinesis.SetActive(false);
+        }
+
+        if (Input.GetKey(KeyCode.E))
+        {
+            waves.SetActive(true);
+        }
+        else
+        {
+            waves.SetActive(false);
         }
     }
 }
+
