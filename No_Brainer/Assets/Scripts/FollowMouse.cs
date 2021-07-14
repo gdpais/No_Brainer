@@ -14,6 +14,7 @@ public class FollowMouse : MonoBehaviour, IPointerDownHandler
     private bool canMove;
     public GameObject obj;
     public GameObject echo;
+    public GameObject increaseSizePower;
 
 
     private void Start()
@@ -40,23 +41,26 @@ public class FollowMouse : MonoBehaviour, IPointerDownHandler
                 rb.MovePosition(position);
             }
 
-            //Increase game object size
-            Vector3 temp = transform.localScale;
-            temp.x += Input.mouseScrollDelta.y;
-            temp.y += Input.mouseScrollDelta.y;
-            if (temp.x > 0.3f && temp.y > 0.3f && temp.x < 3.0f && temp.y < 3.0f)
+            if (increaseSizePower == null)
             {
-                transform.localScale = temp;
-                echo.transform.localScale = temp;
-            }
+                //Increase game object size
+                Vector3 temp = transform.localScale;
+                temp.x += Input.mouseScrollDelta.y;
+                temp.y += Input.mouseScrollDelta.y;
+                if (temp.x > 0.3f && temp.y > 0.3f && temp.x < 3.0f && temp.y < 3.0f)
+                {
+                    transform.localScale = temp;
+                    echo.transform.localScale = temp;
+                }
 
-            if (temp.x < 0.3f && temp.y < 0.3f)
-            {
-                temp.x = 0.3f;
-                temp.y = 0.3f;
-                transform.localScale = temp;
-                echo.transform.rotation = transform.rotation;
-                echo.transform.localScale = temp;
+                if (temp.x < 0.3f && temp.y < 0.3f)
+                {
+                    temp.x = 0.3f;
+                    temp.y = 0.3f;
+                    transform.localScale = temp;
+                    echo.transform.rotation = transform.rotation;
+                    echo.transform.localScale = temp;
+                }
             }
         }
         else
