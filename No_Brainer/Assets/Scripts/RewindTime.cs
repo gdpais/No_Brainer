@@ -7,7 +7,6 @@ public class RewindTime : MonoBehaviour
     private Rigidbody2D rb;
     private List<PointsInTime> recordedPoints;
     private bool isRewinding = false;
-    //private bool canRewind = true;
 
     //Echo Effect
     public GameObject echo;

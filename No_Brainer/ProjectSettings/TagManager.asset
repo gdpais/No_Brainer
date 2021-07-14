@@ -18,6 +18,7 @@ TagManager:
   - waves
   - wavesPower
   - rewindPower
+  - increasePower
   layers:
   - Default
   - TransparentFX
