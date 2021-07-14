@@ -54,6 +54,11 @@ public class AnimationsHandler : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
+
+        if (other.gameObject.CompareTag("increasePower"))
+        {
+            Destroy(other.gameObject);
+        }
     }
 }
 
