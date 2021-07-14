@@ -48,6 +48,7 @@ public class AnimationsHandler : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        //When in contact with a power icon destroyes it, releasing the power limitation
         if (other.gameObject.CompareTag("wavesPower"))
         {
             isActive = true;

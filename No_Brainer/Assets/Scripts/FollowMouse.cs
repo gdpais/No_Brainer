@@ -41,9 +41,11 @@ public class FollowMouse : MonoBehaviour, IPointerDownHandler
                 rb.MovePosition(position);
             }
 
+
+            //Increase/Decrease power
             if (increaseSizePower == null)
             {
-                //Increase game object size
+                //Increase or decreases game object size
                 Vector3 temp = transform.localScale;
                 temp.x += Input.mouseScrollDelta.y;
                 temp.y += Input.mouseScrollDelta.y;
