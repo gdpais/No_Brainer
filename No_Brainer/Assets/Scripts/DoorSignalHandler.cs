@@ -11,11 +11,15 @@ public class DoorSignalHandler : MonoBehaviour
     private bool firstTime;
     [SerializeField] private CinemachineVirtualCamera vCam1; //Main Camera
     [SerializeField] private CinemachineVirtualCamera vCam2; //door camera 
+    public bool forceOpen = true;
+    public int NUMB_OF_NEURONS = 11;
+    PlayerMovement player;
 
     // Start is called before the first frame update
     void Start()
     {
         firstTime = true;
+        player = GameObject.Find("Player").GetComponent<PlayerMovement>();
     }
 
 
@@ -82,6 +86,15 @@ public class DoorSignalHandler : MonoBehaviour
         {
             if (!button.GetComponent<ButtonAction>().GetIsPressed())
                 canOpen = false;
+        }
+
+
+        if (!forceOpen && player != null)
+        {
+            if (player.GetScore() != NUMB_OF_NEURONS)
+            {
+                canOpen = false;
+            }
         }
         return canOpen;
     }

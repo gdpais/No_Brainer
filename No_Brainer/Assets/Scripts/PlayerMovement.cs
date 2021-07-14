@@ -97,4 +97,8 @@ public class PlayerMovement : MonoBehaviour
     {
         countText.text = score.ToString() + ' ';
     }
+    public int GetScore()
+    {
+        return score;
+    }
 }
