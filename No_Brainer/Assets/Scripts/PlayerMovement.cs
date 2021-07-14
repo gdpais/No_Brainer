@@ -18,8 +18,6 @@ public class PlayerMovement : MonoBehaviour
     public AudioClip pickupSound;
     public AudioClip deathSound;
 
-
-
     private void Start()
     {
         score = 0;
@@ -59,6 +57,11 @@ public class PlayerMovement : MonoBehaviour
             SetCounterText();
             Destroy(other.gameObject);
         }
+
+        if (other.gameObject.CompareTag("badguy"))
+        {
+            DieMoment();
+        }
     }
 
     //Checks collisions with enemies 
@@ -66,12 +69,18 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("badguy"))
         {
-            AudioSource.PlayClipAtPoint(deathSound, transform.position);
-            gameObject.GetComponent<SpriteRenderer>().flipY = true;
-            CapsuleCollider2D coll = gameObject.GetComponent<CapsuleCollider2D>();
-            coll.enabled = false;
-            StartCoroutine(TimeStop());
+            DieMoment();
         }
+    }
+
+
+    private void DieMoment()
+    {
+        AudioSource.PlayClipAtPoint(deathSound, transform.position);
+        gameObject.GetComponent<SpriteRenderer>().flipY = true;
+        CapsuleCollider2D coll = gameObject.GetComponent<CapsuleCollider2D>();
+        coll.enabled = false;
+        StartCoroutine(TimeStop());
     }
 
     //Stops time after dieing 
