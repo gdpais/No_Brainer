@@ -14,6 +14,8 @@ public class RewindTime : MonoBehaviour
     private float timeBtwSpawns;
     private float startTimeBtwSpawns = 0.05f;
 
+    public GameObject rewindPower;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +26,6 @@ public class RewindTime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (Input.GetKeyDown(KeyCode.R)) StartRewind();
         if (Input.GetKeyUp(KeyCode.R)) StopRewind();
     }
@@ -34,7 +35,7 @@ public class RewindTime : MonoBehaviour
         //If the gameObject is on screen
         Vector2 pointOnScreen = Camera.main.WorldToScreenPoint(GetComponentInChildren<Renderer>().bounds.center);
         if ((pointOnScreen.x > 0) && (pointOnScreen.x < Screen.width) &&
-                        (pointOnScreen.y > 0) && (pointOnScreen.y < Screen.height) && this != null)
+                        (pointOnScreen.y > 0) && (pointOnScreen.y < Screen.height) && this != null && rewindPower == null)
         {
             if (isRewinding) Rewind(); else RecordPos();
         }
@@ -89,6 +90,5 @@ public class RewindTime : MonoBehaviour
                 timeBtwSpawns -= Time.deltaTime;
             }
         }
-
     }
 }

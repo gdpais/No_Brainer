@@ -15,6 +15,9 @@ TagManager:
   - badguy
   - enHead
   - Tilemap
+  - waves
+  - wavesPower
+  - rewindPower
   layers:
   - Default
   - TransparentFX
