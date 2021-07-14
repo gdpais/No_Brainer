@@ -58,10 +58,10 @@ public class PlayerMovement : MonoBehaviour
             Destroy(other.gameObject);
         }
 
-        if (other.gameObject.CompareTag("badguy"))
-        {
-            DieMoment();
-        }
+        /*   if (other.gameObject.CompareTag("badguy"))
+          {
+              DieMoment();
+          } */
     }
 
     //Checks collisions with enemies 

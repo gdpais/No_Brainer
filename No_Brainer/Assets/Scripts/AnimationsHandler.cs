@@ -11,6 +11,8 @@ public class AnimationsHandler : MonoBehaviour
     // Start is called before the first frame update
     public GameObject telekinesis;
     public GameObject waves;
+
+    public bool forceActiveWaves = false;
     private bool isActive; //waves power
 
     private RewindTime rewindTime;
@@ -20,6 +22,8 @@ public class AnimationsHandler : MonoBehaviour
         telekinesis.SetActive(false);
         waves.SetActive(false);
         isActive = false;
+        if (forceActiveWaves)
+            isActive = true;
     }
 
     // Update is called once per frame
