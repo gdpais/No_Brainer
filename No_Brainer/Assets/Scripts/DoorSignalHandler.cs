@@ -95,6 +95,9 @@ public class DoorSignalHandler : MonoBehaviour
             {
                 canOpen = false;
             }
+            else
+            {
+            }
         }
         return canOpen;
     }
