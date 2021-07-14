@@ -31,6 +31,7 @@ public class FollowMouse : MonoBehaviour, IPointerDownHandler
         if ((pointOnScreen.x > 0) && (pointOnScreen.x < Screen.width) &&
                         (pointOnScreen.y > 0) && (pointOnScreen.y < Screen.height) && canMove)
         {
+            //game Object is selected
             obj.SetActive(true);
             //Checks if mouse1 is pressed and if the object was pressed
             if (Input.GetMouseButton(0))
