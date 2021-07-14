@@ -21,7 +21,7 @@ public class EndOfLevel : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         if (SceneManager.GetActiveScene().buildIndex == 3)
         {
-            SceneManager.LoadScene("Menu_Principal");
+            SceneManager.LoadScene("MainMenu");
         }
         else
         {
