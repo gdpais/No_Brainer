@@ -13,10 +13,12 @@ public class StompEnemy : MonoBehaviour
         {
             Rigidbody2D palyerRb = other.GetComponent<Rigidbody2D>();
             palyerRb.AddForce(transform.up * force, ForceMode2D.Impulse);
-            stomped = true;
-            CapsuleCollider2D coll = transform.parent.gameObject.GetComponent<CapsuleCollider2D>();
-            coll.enabled = false;
-            AudioSource.PlayClipAtPoint(deathSound, transform.position);
+            Die();
+        }
+
+        if (other.gameObject.CompareTag("waves"))
+        {
+            Die();
         }
 
         /*if (other.gameObject.CompareTag("boxMovable"))
@@ -24,6 +26,14 @@ public class StompEnemy : MonoBehaviour
             stomped = true;
             coll.enabled = false;
         }*/
+    }
+
+    private void Die()
+    {
+        stomped = true;
+        CapsuleCollider2D coll = transform.parent.gameObject.GetComponent<CapsuleCollider2D>();
+        coll.enabled = false;
+        AudioSource.PlayClipAtPoint(deathSound, transform.position);
     }
 
     //When the gameObject is stomped and exits the screen, its destroyed
