@@ -91,7 +91,7 @@ public class DoorSignalHandler : MonoBehaviour
 
         if (!forceOpen && player != null)
         {
-            if (player.GetScore() != NUMB_OF_NEURONS)
+            if (player.GetScore() < NUMB_OF_NEURONS)
             {
                 canOpen = false;
             }
